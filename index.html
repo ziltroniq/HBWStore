@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HBW Task Store</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#08152D,#102A52,#0A7C86);
+color:white;
+min-height:100vh;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+width:50px;
+height:50px;
+border-radius:12px;
+}
+
+.logo h1{
+font-size:1.5rem;
+}
+
+.hero{
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding:60px 20px;
+}
+
+.hero img{
+width:120px;
+height:120px;
+border-radius:30px;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+margin-bottom:20px;
+}
+
+.hero h2{
+font-size:2.2rem;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+opacity:.9;
+line-height:1.7;
+margin-bottom:30px;
+}
+
+.download-btn{
+display:inline-block;
+padding:16px 35px;
+background:#00E0FF;
+color:#08152D;
+font-weight:700;
+text-decoration:none;
+border-radius:50px;
+transition:.3s;
+}
+
+.download-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 25px rgba(0,224,255,.4);
+}
+
+.card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,.1);
+border-radius:20px;
+padding:25px;
+margin-top:30px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.feature{
+background:rgba(255,255,255,.05);
+padding:20px;
+border-radius:15px;
+}
+
+.feature h3{
+margin-bottom:10px;
+}
+
+.info{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+margin-top:20px;
+text-align:center;
+}
+
+.info-box{
+background:rgba(255,255,255,.05);
+padding:15px;
+border-radius:15px;
+}
+
+footer{
+text-align:center;
+padding:40px 20px;
+opacity:.8;
+}
+
+.badge{
+display:inline-block;
+background:#22c55e;
+padding:8px 15px;
+border-radius:50px;
+font-size:.9rem;
+margin-bottom:20px;
+}
+
+.warning{
+margin-top:20px;
+font-size:.9rem;
+opacity:.8;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:1.8rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="logo">
+<img src="https://i.ibb.co/LzVr6vGm/In-Shot-20260607-171241372.jpg" alt="HBW">
+<h1>HBW Store</h1>
+</div>
+</header>
+
+<section class="hero">
+
+<img src="logo.png" alt="HBW Task">
+
+<div class="badge">
+✓ Application Vérifiée
+</div>
+
+<h2>HBW Task</h2>
+
+<p>
+Gagnez de l'argent en accomplissant des tâches simples,
+en travaillant en ligne et en rejoignant la communauté HBW.
+Téléchargez dès maintenant la dernière version de l'application.
+</p>
+
+<a href="HBW-Task.apk" class="download-btn" download>
+📥 Télécharger l'APK
+</a>
+
+<p class="warning">
+Si Android bloque l'installation, activez simplement
+"Installer des applications inconnues" dans les paramètres.
+</p>
+
+</section>
+
+<div class="card">
+
+<h2>À propos de l'application</h2>
+
+<div class="info">
+
+<div class="info-box">
+<h3>Version</h3>
+<p>1.0.0</p>
+</div>
+
+<div class="info-box">
+<h3>Taille</h3>
+<p>25 MB</p>
+</div>
+
+<div class="info-box">
+<h3>Android</h3>
+<p>8.0+</p>
+</div>
+
+<div class="info-box">
+<h3>Licence</h3>
+<p>Gratuite</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="features">
+
+<div class="feature">
+<h3>💰 Gagner de l'argent</h3>
+<p>
+Accomplissez différentes missions et tâches rémunérées.
+</p>
+</div>
+
+<div class="feature">
+<h3>⚡ Rapide</h3>
+<p>
+Application optimisée pour fonctionner même sur des appareils modestes.
+</p>
+</div>
+
+<div class="feature">
+<h3>🔒 Sécurisé</h3>
+<p>
+Protection des comptes utilisateurs et des données.
+</p>
+</div>
+
+<div class="feature">
+<h3>🌍 Disponible partout</h3>
+<p>
+Accédez à HBW Task depuis n'importe quel pays.
+</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 HBW Task • Tous droits réservés
+</footer>
+
+</div>
+
+</body>
+  </html>
